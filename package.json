@@ -1,29 +1,33 @@
 {
-    "name": "greekdev-template-vue-spa",
-    "description": "Single Page Application Template with Vue.js / Vuex / Vue-Router ",
-    "version": "1.0.0",
-    "main": "",
-    "author": "thomas.sarmis@gmail.com",
-    "license": "ISC",
-    "homepage": "https://github.com/sarmis/greekdev-template-vue-spa#readme",
-    "scripts": {
-        "dev": "start parcel src/web/index.html --no-hmr --out-dir ./dist/web"
-    },
-    "dependencies": {
-        "vue": "^2.6.10",
-        "vue-router": "^3.0.2",
-        "vuex": "^3.1.0",
-        "@vue/component-compiler-utils": "^2.6.0",
-        "vue-template-compiler": "^2.6.10",
-        "pug": "^2.0.3",
-        "sass": "^1.17.4",
-        "vue-hot-reload-api": "^2.3.3"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/sarmis/greekdev-template-vue-spa.git"
-    },
-    "bugs": {
-        "url": "https://github.com/sarmis/greekdev-template-vue-spa/issues"
-    }
+  "name": "greekdev-template-vue-spa",
+  "description": "Single Page Application Template with Vue.js / Vuex / Vue-Router ",
+  "version": "1.0.0",
+  "main": "",
+  "author": "thomas.sarmis@gmail.com",
+  "license": "ISC",
+  "homepage": "https://github.com/sarmis/greekdev-template-vue-spa#readme",
+  "scripts": {
+    "dev": "start parcel src/web/index.html --no-hmr --out-dir ./dist/web",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0",
+    "@vue/component-compiler-utils": "^2.6.0",
+    "vue-template-compiler": "^2.6.10",
+    "pug": "^2.0.3",
+    "sass": "^1.17.4",
+    "vue-hot-reload-api": "^2.3.3",
+    "snyk": "^1.316.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarmis/greekdev-template-vue-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarmis/greekdev-template-vue-spa/issues"
+  },
+  "snyk": true
 }
